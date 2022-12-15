@@ -8,8 +8,8 @@ A/B test results of Cookie Cats to examine what happens when the first gate in t
 As players progress through the levels of the game, they will occasionally encounter gates that force them to wait a non-trivial amount of time or make an in-app purchase to progress. In addition to driving in-app purchases, these gates serve the important purpose of giving players an enforced break from playing the game, hopefully resulting in that the player's enjoyment of the game being increased and prolonged.
 
 ## Root Cause Analysis
-Does treatment (moved from gate30 to gate40) result in increased and prolonged enjoyment of the player in playing?
-Does treatment (moved from gate30 to gate40) increase in-app purchases?
+- Does treatment (moved from gate30 to gate40) result in increased and prolonged enjoyment of the player in playing?
+- Does treatment (moved from gate30 to gate40) increase in-app purchases?
 
 ## Problem Statement
 Should the proposed gate at Level 40 be implemented over the existing gate at Level 30 based on day 1 and 7 player retention rates.
@@ -22,8 +22,8 @@ A/B Testing using bootstrap analysis and proportional z-tests was done on Day 1 
 retention rates
 
 ## Population
-90189 user
-Sample : 759  user ~ 1000 user
+- 90189 user
+- Sample : 759  user ~ 1000 user
 
 ## Business Hypothesis
 The business question relates specifically to changing the gates based on the day 1 and 7 retention rates. We can also perform an A/B test on sum_gamerounds to check if there is a statistically significant difference in the number of gamerounds played based on assigned group.
@@ -31,14 +31,14 @@ Therefore, A/B tests on three separate targets: retention_1, retention_7, and su
 A confidence interval of 95% will be taken for all tests.
 
 ## Hypothesis
-H0 = The proportions are the same
-H1 = The proportions are different
+- H0 = The proportions are the same
+- H1 = The proportions are different
 
 ## Experiment Groups and Period
-Sample 1000 Users random
-Control	:  user who gate30
-Treatment	:  user who moved from gate30 to gate40/ gate40
-Period : Day 1 and 7 Retention rates
+- Sample 1000 Users random
+- Control	:  user who gate30
+- Treatment	:  user who moved from gate30 to gate40/ gate40
+- Period : Day 1 and 7 Retention rates
 
 ## Experiment Monitoring
 Dataset
