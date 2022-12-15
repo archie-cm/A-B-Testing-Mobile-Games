@@ -68,10 +68,10 @@ Observations on rounds played
 All values are with respect to the week after installation.
 There are no obvious links between gamerounds played and the group the player was assigned to.
 The number of players decreases as levels increase. The exception is that a number of players installed the game and did not complete any levels (installed and did not play).
-3,994 (~4.4%) players did not play the game
-~27.4% of players played five or less rounds
-50% of players played 16 or less rounds
-75% of players played less than 50 rounds
+- 3,994 (~4.4%) players did not play the game
+- ~27.4% of players played five or less rounds
+- 50% of players played 16 or less rounds
+- 75% of players played less than 50 rounds
 
 Retention Rate Observations
 Considering the entire sample, the 1 and 7 Day Retention Rate are 0.445 and 0.186 respectively.
