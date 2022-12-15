@@ -41,24 +41,7 @@ A confidence interval of 95% will be taken for all tests.
 - Period : Day 1 and 7 Retention rates
 
 ## Experiment Monitoring
-Dataset
-Duplicated data
-Missing data
-dataset balance
-EDA
-Game Round Played
-Univariate
-Bivariate
-the 1 and 7 Day Retention Rate
-Univariate
-Bivariate
-A/B Testing
-Day 1 and 7 Retention rates
-bootstrap analysis
-proportional z-tests
-Gamerounds played
-bootstrap analysis
-Mann-Whitney U test
+can view in [A_B_Testing_Mobile_Games.ipynb](https://github.com/archie-cm/A-B-Testing-Mobile-Games/blob/main/A_B_Testing_Mobile_Games.ipynb)
 
 
 ## Analysis
