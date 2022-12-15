@@ -64,7 +64,7 @@ Mann-Whitney U test
 ## Analysis
 
 ### Descriptive Analyst
-Observations on rounds played
+Observations on rounds played\n
 All values are with respect to the week after installation.
 There are no obvious links between gamerounds played and the group the player was assigned to.
 The number of players decreases as levels increase. The exception is that a number of players installed the game and did not complete any levels (installed and did not play).
@@ -73,13 +73,13 @@ The number of players decreases as levels increase. The exception is that a numb
 - 50% of players played 16 or less rounds
 - 75% of players played less than 50 rounds
 
-Retention Rate Observations
+Retention Rate Observations\n
 Considering the entire sample, the 1 and 7 Day Retention Rate are 0.445 and 0.186 respectively.
 Graphically, there is not much to see. The values for Day 1 and Day 7 retention rates are slightly higher for the control group, gate_30, with a 1 and 7 Day retention rate of 0.448 and 0.190 respectively, compared with the the treatment group, gate_40, rates of 0.442 and 0.182. The control groups retention rates are greater than the retention rates for the entire sample.
 AB tests will be performed to see if these values are statistically significant or not.
 Looking at the combined 1 and 7 Day Retention Rates, it looks like slightly more players assigned to the control group, gate_30, played the game both on Day 1 and with 7 Days (True-True), and more players assigned to the treatment group, gate_40, played neither on Day 1 or Day 7 (False-False)
 
-Inferential analyst
+Inferential analyst\n
 In this an analysis, an exploratory data analysis was performed on the gamerounds completed by each user and the Day 1 and 7 Retention rates. The data was clean with the exception of a single disproportionate outlier that was corrected for. A/B Testing using bootstrap analysis and proportional z-tests was done on Day 1 and 7 Retention rates, and bootstrap analysis and Mann-Whitney U test on gamerounds played.
 Based on the results of the z-test, there is strong evidence that Day 7 retention rates are higher when the gate is at Level 30. Therefore, the gate should not be moved. The bootstrap analysis suggests that the Level 30 gate is better for Day 1 Retention. Further investigation is required.
 Looking at the cumulative number of games played per person, there where no statistically significant results.
